@@ -101,7 +101,7 @@ class Equity_Quicksearch_Widget extends WP_Widget {
 				</div>
 				<div class="equity-qs-links">
 					<?php if ( $instance['adv_search']) {
-						echo '<a class="advanced-search" href="' . apply_filters( 'equity_qs_adv_link', $equity_qs_adv_link = $_idx->subdomain_url() . 'search/advanced') . '">' . __( 'Advanced Search', 'equity' ) .'</a>';
+						echo '<a class="advanced-search" href="' . apply_filters( 'equity_qs_adv_link', $equity_qs_adv_link = $_idx->subdomain_url() . 'search' ) . '">' . __( 'Advanced Search', 'equity' ) .'</a>';
 					} ?>
 					<?php if ( $instance['map_search']) {
 						echo '<a class="map-search" href="' . apply_filters( 'equity_qs_map_link', $equity_qs_map_link = $_idx->subdomain_url() . 'map/mapsearch') . '">' . __( 'Map Search', 'equity' ) .'</a>';

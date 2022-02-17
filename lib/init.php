@@ -121,7 +121,7 @@ function equity_constants() {
 
 	//* Define Theme Info Constants
 	define( 'PARENT_THEME_NAME', 'Equity' );
-	define( 'PARENT_THEME_VERSION', '1.7.13' );
+	define( 'PARENT_THEME_VERSION', '1.7.14' );
 	define( 'PARENT_THEME_RELEASE_DATE', date_i18n( 'F j, Y', '1535055403' ) );
 
 	//* Define Directory Location Constants

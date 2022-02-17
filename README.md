@@ -5,6 +5,9 @@ Equity Framework is a WordPress theme framework for Real Estate Themes by IDX, L
 
 Changelog
 
+== 1.7.14 ==
+* Update: Equity QS Widget - Advanced link uses default IDX search page
+
 == 1.7.13 ==
 * New: Google My Business option added to Equity Theme Settings
 * Fix: Compatibility fix for IMPress for IDX Broker 3.0+
